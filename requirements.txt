@@ -2,3 +2,4 @@ tensorflow-cpu
 requests
 numpy
 pillow
+markupsafe==2.0.1
