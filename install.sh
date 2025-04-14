@@ -73,7 +73,8 @@ function setup_venv {
 function link_module {
     if [ ! -d "${KLIPPER_PATH}/klippy/extras/daisy" ]; then
         echo "[INSTALL] Linking Daisy AI module to Klipper extras"
-        ln -frsn ${DAISY_PATH}/daisy.py ${KLIPPER_PATH}/klippy/extras/daisy
+        chmod +x ${DAISY_PATH}/daisy.py
+        ln -frsn ${DAISY_PATH}/daisy.py ${KLIPPER_PATH}/klippy/extras/daisy.py
     else
         printf "[INSTALL] Daisy AI Klipper module is already installed. Continuing...\n\n"
     fi
