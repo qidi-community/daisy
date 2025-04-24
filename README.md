@@ -2,6 +2,8 @@
 
 Under construction, here be dragons...
 
+This klipper plugin aims to help you prevent gouged beds, cracked nozzles and bent X axis rods by taking a peek at your webcam first and erroring out if it sees you have a missing plate or a print left forgotten in the printer.
+
 minimal set of instructions:
 ```sh
 cd ~
